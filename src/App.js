@@ -80,7 +80,7 @@ class App extends Component {
    };
    
    render() {
-      const { isSignedIn, imageUrl, route, box } = this.state
+      const { isSignedIn, imageUrl, route, box } = this.state;
       return (
          <div className="App">
             <Particles className='particles'
